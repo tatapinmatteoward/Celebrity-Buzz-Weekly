@@ -1,0 +1,217 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Behind the Scenes at Celebrity Buzz Weekly" description="Dive into the exciting world behind Celebrity Buzz Weekly, where we uncover the magic of Hollywood gossip, fashion trends, and star stories. Get an exclusive look at our team, processes, and what keeps the buzz alive!">
+  <!-- Hero Section with Neon Gradient -->
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-r from-purple-900 via-pink-700 to-purple-900 opacity-90"></div>
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+CjxyZWN0IHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgZmlsbD0ibm9uZSIvPgo8Y2lyY2xlIGN4PSIzMCIgY3k9IjMwIiByPSIyIiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIwLjA1Ii8+Cjwvc3ZnPg==')] opacity-20"></div>
+    <div class="relative container mx-auto px-4 py-24 md:py-32">
+      <div class="max-w-3xl mx-auto text-center">
+        <div class="inline-block px-4 py-1 mb-4 bg-pink-600 rounded-full text-white font-bold animate-pulse">
+          <i class="fas fa-star mr-2"></i> EXCLUSIVE INSIDE LOOK <i class="fas fa-star ml-2"></i>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+          Behind the Scenes at <span class="text-pink-400">Celebrity Buzz Weekly</span>
+        </h1>
+        <p class="text-xl text-purple-100 max-w-2xl mx-auto">
+          Dive into the exciting world where Hollywood gossip meets neon-lit creativity. 
+          <span class="font-bold text-pink-300">Uncover the magic</span> that powers our weekly pulse of stardom!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team Section with Neon Cards -->
+  <section class="py-16 bg-gradient-to-b from-purple-900 to-black">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          Meet the <span class="text-pink-400">Buzz Makers</span>
+        </h2>
+        <p class="text-purple-200 max-w-2xl mx-auto">
+          Our squad of sleuths, stylists, and storytellers fuel the fire of Hollywood's hottest scoop
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Gossip Gurus Card -->
+        <div class="bg-gradient-to-br from-purple-800 to-purple-900 rounded-xl p-6 border-2 border-pink-500 shadow-lg hover:shadow-pink-500/30 transition-all duration-300 transform hover:-translate-y-2">
+          <div class="flex items-center mb-4">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 flex items-center justify-center mr-4">
+              <i class="fas fa-microphone text-white text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">The Gossip Gurus</h3>
+          </div>
+          <p class="text-purple-200 mb-4">
+            Led by Editor-in-Chief Mia Voss, our reporters chase leads from red carpets to rooftop parties.
+          </p>
+          <div class="flex items-center text-pink-300">
+            <i class="fas fa-lightbulb mr-2"></i>
+            <span class="text-sm">Fun fact: Mia once scored an exclusive by crashing a celeb's birthday bash—in disguise!</span>
+          </div>
+        </div>
+
+        <!-- Fashion Forward Card -->
+        <div class="bg-gradient-to-br from-purple-800 to-purple-900 rounded-xl p-6 border-2 border-pink-500 shadow-lg hover:shadow-pink-500/30 transition-all duration-300 transform hover:-translate-y-2">
+          <div class="flex items-center mb-4">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 flex items-center justify-center mr-4">
+              <i class="fas fa-tshirt text-white text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">Fashion Forward</h3>
+          </div>
+          <p class="text-purple-200 mb-4">
+            Our style squad turns the hottest red carpet looks into wearable inspiration for everyday fans.
+          </p>
+          <div class="flex items-center text-pink-300">
+            <i class="fas fa-star mr-2"></i>
+            <span class="text-sm">We're the ones who know what's trending before the runways do!</span>
+          </div>
+        </div>
+
+        <!-- Storytellers Card -->
+        <div class="bg-gradient-to-br from-purple-800 to-purple-900 rounded-xl p-6 border-2 border-pink-500 shadow-lg hover:shadow-pink-500/30 transition-all duration-300 transform hover:-translate-y-2">
+          <div class="flex items-center mb-4">
+            <div class="w-16 h-16 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 flex items-center justify-center mr-4">
+              <i class="fas fa-book text-white text-2xl"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white">Storytellers</h3>
+          </div>
+          <p class="text-purple-200 mb-4">
+            We craft narratives that transform celeb moments into unforgettable tales that capture your imagination.
+          </p>
+          <div class="flex items-center text-pink-300">
+            <i class="fas fa-fire mr-2"></i>
+            <span class="text-sm">Every story is a masterpiece in the making!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section with Animated Timeline -->
+  <section class="py-16 bg-gradient-to-b from-black to-purple-900">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+          Our <span class="text-pink-400">Buzz Process</span>
+        </h2>
+        <p class="text-purple-200 max-w-2xl mx-auto">
+          The secret sauce behind our world-class celebrity coverage
+        </p>
+      </div>
+
+      <div class="relative max-w-4xl mx-auto">
+        <!-- Timeline line -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-pink-500 to-purple-500"></div>
+
+        <div class="space-y-12">
+          <!-- Step 1 -->
+          <div class="relative flex items-center">
+            <div class="w-1/2 pr-8 text-right">
+              <div class="inline-block px-4 py-2 bg-purple-800 rounded-full text-pink-300 font-bold mb-3">
+                <i class="fas fa-search mr-2"></i> Research
+              </div>
+              <h3 class="text-xl font-bold text-white mb-2">Sleuthing the Scene</h3>
+              <p class="text-purple-200">
+                Our reporters comb through entertainment news, social feeds, and exclusive sources to find the latest buzz.
+              </p>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-pink-500 border-4 border-purple-900"></div>
+            <div class="w-1/2 pl-8"></div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="relative flex items-center">
+            <div class="w-1/2 pr-8 text-right">
+              <div class="inline-block px-4 py-2 bg-purple-800 rounded-full text-pink-300 font-bold mb-3">
+                <i class="fas fa-check-circle mr-2"></i> Verify
+              </div>
+              <h3 class="text-xl font-bold text-white mb-2">Double-Check All the Details</h3>
+              <p class="text-purple-200">
+                We cross-reference information with multiple sources before any story makes it to print.
+              </p>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-pink-500 border-4 border-purple-900"></div>
+            <div class="w-1/2 pl-8"></div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="relative flex items-center">
+            <div class="w-1/2 pr-8 text-right">
+              <div class="inline-block px-4 py-2 bg-purple-800 rounded-full text-pink-300 font-bold mb-3">
+                <i class="fas fa-pen-alt mr-2"></i> Craft
+              </div>
+              <h3 class="text-xl font-bold text-white mb-2">Storytelling Magic</h3>
+              <p class="text-purple-200">
+                Our writers weave together facts and flair to create engaging, shareable content for our readers.
+              </p>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-pink-500 border-4 border-purple-900"></div>
+            <div class="w-1/2 pl-8"></div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="relative flex items-center">
+            <div class="w-1/2 pr-8 text-right">
+              <div class="inline-block px-4 py-2 bg-purple-800 rounded-full text-pink-300 font-bold mb-3">
+                <i class="fas fa-bullhorn mr-2"></i> Publish
+              </div>
+              <h3 class="text-xl font-bold text-white mb-2">Spread the Buzz</h3>
+              <p class="text-purple-200">
+                Dispatched across our digital platforms and social channels to reach the most devoted fans.
+              </p>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-pink-500 border-4 border-purple-900"></div>
+            <div class="w-1/2 pl-8"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="py-16 bg-gradient-to-r from-purple-900 to-pink-800">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div class="p-6 bg-black/30 rounded-xl backdrop-blur-sm border border-pink-500/30">
+          <div class="text-4xl md:text-5xl font-bold text-white mb-2">15K+</div>
+          <div class="text-pink-300">Weekly Readers</div>
+        </div>
+        <div class="p-6 bg-black/30 rounded-xl backdrop-blur-sm border border-pink-500/30">
+          <div class="text-4xl md:text-5xl font-bold text-white mb-2">24/7</div>
+          <div class="text-pink-300">Buzz Monitoring</div>
+        </div>
+        <div class="p-6 bg-black/30 rounded-xl backdrop-blur-sm border border-pink-500/30">
+          <div class="text-4xl md:text-5xl font-bold text-white mb-2">120+</div>
+          <div class="text-pink-300">Exclusive Interviews</div>
+        </div>
+        <div class="p-6 bg-black/30 rounded-xl backdrop-blur-sm border border-pink-500/30">
+          <div class="text-4xl md:text-5xl font-bold text-white mb-2">4.9/5</div>
+          <div class="text-pink-300">Reader Ratings</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-black via-purple-900 to-pink-900">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+        Ready to Join the <span class="text-pink-400">Buzz?</span>
+      </h2>
+      <p class="text-xl text-purple-200 max-w-2xl mx-auto mb-10">
+        Get our exclusive insider access to Hollywood's most exclusive secrets
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <button class="px-8 py-4 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full text-white font-bold hover:from-pink-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-pink-500/30">
+          Subscribe Now
+        </button>
+        <button class="px-8 py-4 bg-transparent border-2 border-pink-500 text-pink-300 rounded-full font-bold hover:bg-pink-500/20 transition-all duration-300">
+          Follow Our Team
+        </button>
+      </div>
+    </div>
+  </section>
+</Layout>

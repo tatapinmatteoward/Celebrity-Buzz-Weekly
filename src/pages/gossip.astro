@@ -1,0 +1,283 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout 
+  title="Gossip Central: Hollywood's Juiciest Secrets Revealed" 
+  description="Dive into the latest Hollywood gossip, celebrity scandals, fashion faux pas, and star-studded rumors on Celebrity Buzz Weekly. Get your fix of vibrant pop culture neon with insider scoops that light up the entertainment scene."
+>
+  <!-- Hero Section with Neon Gradient -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-r from-[#6a0dad] via-[#ff0077] to-[#6a0dad] opacity-90"></div>
+    <div class="relative container mx-auto px-4 py-24 md:py-32">
+      <div class="flex flex-col items-center text-center">
+        <div class="inline-block bg-black bg-opacity-30 backdrop-blur-sm rounded-full px-6 py-2 mb-6 border border-white border-opacity-30">
+          <span class="text-[#ff0077] font-bold text-lg flex items-center">
+            <i class="fas fa-gossip mr-2"></i> 
+            NEW EPISODE ALERT
+          </span>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+          Gossip Central: 
+          <span class="block text-transparent bg-clip-text bg-gradient-to-r from-[#ff0077] to-[#ffd166]">
+            Hollywood's Juiciest Secrets Revealed
+          </span>
+        </h1>
+        <p class="text-xl text-white max-w-3xl opacity-90 mb-10">
+          Dive into the latest Hollywood gossip, celebrity scandals, fashion faux pas, and star-studded rumors. Get your fix of vibrant pop culture neon with insider scoops that light up the entertainment scene.
+        </p>
+        <div class="flex space-x-4">
+          <button class="px-8 py-3 bg-white text-[#6a0dad] font-bold rounded-full hover:bg-opacity-90 transition-all transform hover:scale-105 shadow-lg shadow-[#ff0077]/30">
+            Latest Gossip
+          </button>
+          <button class="px-8 py-3 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#6a0dad] transition-all">
+            Subscribe Now
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black to-transparent"></div>
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="py-16 bg-gradient-to-b from-black to-[#1a1a2e]">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center gap-10">
+        <div class="md:w-1/2">
+          <div class="relative">
+            <div class="absolute -inset-4 bg-[#ff0077] rounded-lg opacity-20 blur-lg"></div>
+            <div class="relative bg-gradient-to-br from-[#6a0dad] to-[#1a1a2e] border border-[#ff0077] rounded-lg p-8 shadow-xl">
+              <h2 class="text-3xl font-bold text-white mb-4 flex items-center">
+                <i class="fas fa-star text-[#ffd166] mr-3"></i>
+                Welcome to Gossip Central! 🌟
+              </h2>
+              <p class="text-[#ffd166] mb-4">
+                <span class="font-bold text-white">Your Weekly Dose of Hollywood Gossip, Fashion, and Star Spotlight</span>
+              </p>
+              <p class="text-gray-300 mb-6">
+                Step into the neon-lit world of celebrity drama where secrets spill faster than red carpet gowns. This week on <span class="font-bold text-[#ff0077]">Celebrity Buzz Weekly</span>, we're buzzing about the hottest scandals, style steals, and whispers from Tinseltown. Grab your popcorn and let's dish!
+              </p>
+              <div class="flex items-center text-[#ffd166]">
+                <i class="fas fa-music mr-2"></i>
+                <span class="font-bold">Live. Loud. Unfiltered.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-1/2">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="bg-gradient-to-br from-[#6a0dad] to-[#ff0077] rounded-xl p-6 shadow-lg transform hover:scale-105 transition-transform">
+              <h3 class="text-xl font-bold text-white mb-2">New Scandal</h3>
+              <p class="text-white opacity-90">Brad Pitt's mystery date</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#ff0077] to-[#ffd166] rounded-xl p-6 shadow-lg transform hover:scale-105 transition-transform">
+              <h3 class="text-xl font-bold text-white mb-2">Style Alert</h3>
+              <p class="text-white opacity-90">Taylor Swift's red carpet</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#ffd166] to-[#6a0dad] rounded-xl p-6 shadow-lg transform hover:scale-105 transition-transform">
+              <h3 class="text-xl font-bold text-white mb-2">Rumors</h3>
+              <p class="text-white opacity-90">Hollywood's biggest gossip</p>
+            </div>
+            <div class="bg-gradient-to-br from-[#6a0dad] to-[#ff0077] rounded-xl p-6 shadow-lg transform hover:scale-105 transition-transform">
+              <h3 class="text-xl font-bold text-white mb-2">Trend Alert</h3>
+              <p class="text-white opacity-90">Celebrity fashion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scandal Section -->
+  <section class="py-16 bg-gradient-to-b from-[#1a1a2e] to-black">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold text-white mb-4 flex justify-center items-center">
+          <i class="fas fa-fire text-[#ff0077] mr-4"></i>
+          🔥 Hottest Celebrity Scandals
+        </h2>
+        <p class="text-xl text-[#ffd166] max-w-3xl mx-auto">
+          Where the biggest stars meet their biggest problems
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <!-- Scandal Card 1 -->
+        <div class="bg-gradient-to-br from-[#6a0dad] to-[#1a1a2e] rounded-2xl overflow-hidden border border-[#ff0077] shadow-2xl transform hover:scale-[1.02] transition-all duration-300">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <div>
+                <h3 class="text-2xl font-bold text-white mb-2">Brad Pitt's Mystery Date?</h3>
+                <div class="flex items-center text-[#ffd166]">
+                  <i class="fas fa-user mr-2"></i>
+                  <span>Source: Entertainment Insider</span>
+                </div>
+              </div>
+              <div class="bg-[#ff0077] text-white text-sm font-bold px-3 py-1 rounded-full">
+                HOT
+              </div>
+            </div>
+            <p class="text-gray-300 mb-4">
+              Sources close to the <span class="font-bold text-[#ffd166]">Once Upon a Time in Hollywood</span> star claim he's been spotted cozying up with a mysterious brunette at a Beverly Hills hotspot. Is this the end of his bachelor era? <span class="font-bold text-[#ff0077]">Stay tuned for exclusives!</span>
+            </p>
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-gray-400">3 hours ago</span>
+              <button class="text-[#ffd166] hover:text-white flex items-center">
+                Read Full Story
+                <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Scandal Card 2 -->
+        <div class="bg-gradient-to-br from-[#ff0077] to-[#1a1a2e] rounded-2xl overflow-hidden border border-[#ffd166] shadow-2xl transform hover:scale-[1.02] transition-all duration-300">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <div>
+                <h3 class="text-2xl font-bold text-white mb-2">Taylor Swift and Travis Kelce: Trouble in Paradise?</h3>
+                <div class="flex items-center text-[#ffd166]">
+                  <i class="fas fa-heart mr-2"></i>
+                  <span>Source: Celebrity Weekly</span>
+                </div>
+              </div>
+              <div class="bg-[#ffd166] text-black text-sm font-bold px-3 py-1 rounded-full">
+                TRENDING
+              </div>
+            </div>
+            <p class="text-gray-300 mb-4">
+              After that viral onstage moment, insiders whisper about scheduling clashes straining their high-profile relationship. Are the stars of the decade finally facing their biggest challenge yet?
+            </p>
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-gray-400">5 hours ago</span>
+              <button class="text-[#ffd166] hover:text-white flex items-center">
+                Read Full Story
+                <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Scandal Card 3 -->
+        <div class="bg-gradient-to-br from-[#1a1a2e] to-[#6a0dad] rounded-2xl overflow-hidden border border-[#ff0077] shadow-2xl transform hover:scale-[1.02] transition-all duration-300">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <div>
+                <h3 class="text-2xl font-bold text-white mb-2">The Breakup That Shook Hollywood</h3>
+                <div class="flex items-center text-[#ffd166]">
+                  <i class="fas fa-heart-broken mr-2"></i>
+                  <span>Source: Gossip Central</span>
+                </div>
+              </div>
+              <div class="bg-[#ff0077] text-white text-sm font-bold px-3 py-1 rounded-full">
+                EXCLUSIVE
+              </div>
+            </div>
+            <p class="text-gray-300 mb-4">
+              A rumored split between two A-listers has left Hollywood buzzing. The couple's secret relationship, once hidden in plain sight, is now the talk of every red carpet and paparazzi hotspot.
+            </p>
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-gray-400">1 day ago</span>
+              <button class="text-[#ffd166] hover:text-white flex items-center">
+                Read Full Story
+                <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Scandal Card 4 -->
+        <div class="bg-gradient-to-br from-[#1a1a2e] to-[#ff0077] rounded-2xl overflow-hidden border border-[#ffd166] shadow-2xl transform hover:scale-[1.02] transition-all duration-300">
+          <div class="p-6">
+            <div class="flex justify-between items-start mb-4">
+              <div>
+                <h3 class="text-2xl font-bold text-white mb-2">A Star's Fashion Faux Pas</h3>
+                <div class="flex items-center text-[#ffd166]">
+                  <i class="fas fa-tshirt mr-2"></i>
+                  <span>Source: Style Radar</span>
+                </div>
+              </div>
+              <div class="bg-[#ffd166] text-black text-sm font-bold px-3 py-1 rounded-full">
+                STYLE
+              </div>
+            </div>
+            <p class="text-gray-300 mb-4">
+              Hollywood's biggest fashion faux pas of the week has left fans debating the true meaning behind a stunningly wrong choice. Was it a mistake or a statement?
+            </p>
+            <div class="flex items-center justify-between">
+              <span class="text-sm text-gray-400">2 days ago</span>
+              <button class="text-[#ffd166] hover:text-white flex items-center">
+                Read Full Story
+                <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="py-20 bg-gradient-to-r from-[#6a0dad] to-[#ff0077]">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold text-white mb-6">Never Miss a Gossip Scoop!</h2>
+      <p class="text-xl text-white max-w-3xl mx-auto mb-10 opacity-90">
+        Subscribe to our newsletter and get the latest Hollywood secrets delivered straight to your inbox.
+      </p>
+      
+      <div class="max-w-2xl mx-auto">
+        <form class="flex flex-col sm:flex-row gap-4">
+          <input 
+            type="email" 
+            placeholder="Your email address" 
+            class="flex-grow px-6 py-4 rounded-full text-[#6a0dad] font-bold focus:outline-none focus:ring-2 focus:ring-white"
+          >
+          <button 
+            type="submit"
+            class="px-8 py-4 bg-black text-white font-bold rounded-full hover:bg-gray-900 transition-colors shadow-lg"
+          >
+            Subscribe
+          </button>
+        </form>
+        <p class="text-white mt-4 text-sm opacity-75">
+          We respect your privacy. Unsubscribe at any time.
+        </p>
+      </div>
+      
+      <div class="mt-16 flex justify-center space-x-8">
+        <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-full p-4 hover:bg-opacity-30 transition-all">
+          <i class="fab fa-facebook-f text-white text-2xl"></i>
+        </div>
+        <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-full p-4 hover:bg-opacity-30 transition-all">
+          <i class="fab fa-twitter text-white text-2xl"></i>
+        </div>
+        <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-full p-4 hover:bg-opacity-30 transition-all">
+          <i class="fab fa-instagram text-white text-2xl"></i>
+        </div>
+        <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-full p-4 hover:bg-opacity-30 transition-all">
+          <i class="fab fa-tiktok text-white text-2xl"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer CTA -->
+  <section class="py-16 bg-black">
+    <div class="container mx-auto px-4 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Stay in the Loop?</h2>
+        <p class="text-xl text-[#ffd166] mb-10 max-w-2xl mx-auto">
+          Join thousands of fans who never miss the latest Hollywood news and exclusive behind-the-scenes stories.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <button class="px-8 py-4 bg-[#ff0077] text-white font-bold rounded-full hover:bg-[#ff0077]/90 transition-colors shadow-lg">
+            Subscribe to Full Gossip
+          </button>
+          <button class="px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#6a0dad] transition-colors">
+            View Archive
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
